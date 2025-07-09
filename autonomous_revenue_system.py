@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-One-Click Setup Script for Autonomous Revenue System
-This script automates the entire setup and deployment process
-"""
-
 import os
 import sys
 import json
@@ -27,17 +21,6 @@ class QuickSetup:
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
-🎯 This script will:
-  ✅ Create complete project structure
-  ✅ Generate all necessary files 
-  ✅ Setup GitHub repository
-  ✅ Deploy to Vercel
-  ✅ Configure environment
-
-⏱️  Setup time: ~5 minutes
-🎊 Result: Fully operational revenue system
-
-Press Enter to continue or Ctrl+C to cancel...
         """
         print(banner)
         try:
@@ -667,38 +650,6 @@ if __name__ == "__main__":
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
-🚀 WHAT'S BEEN CREATED:
-  ✅ Complete project structure with all files
-  ✅ API endpoints for scaling, AI learning, and status
-  ✅ Responsive dashboard with real-time updates
-  ✅ GitHub repository (if CLI available)
-  ✅ Vercel deployment configuration
-
-🔧 NEXT STEPS:
-  1. 📝 Copy .env.example to .env and add your API keys
-  2. 🌐 Deploy to Vercel: run 'vercel --prod' 
-  3. ⚙️  Configure environment variables in Vercel dashboard
-  4. 🚀 Visit your dashboard and click "LAUNCH SYSTEM"
-  5. 📊 Monitor your automated revenue growth
-
-💡 QUICK DEPLOY:
-  • Install Vercel CLI: npm install -g vercel
-  • Deploy: vercel --prod
-  • Configure: Add API keys in Vercel dashboard
-
-🎯 EXPECTED RESULTS:
-  • Week 1: System optimization and AI learning
-  • Week 2-3: First automated revenue streams
-  • Month 1: $300-500 daily revenue
-  • Month 2+: $1,000+ daily revenue with full automation
-
-📚 SUPPORT:
-  • Check README.md for detailed instructions
-  • All files are documented and ready to customize
-  • GitHub repository includes CI/CD workflow
-
-🚀 Your AI-powered revenue machine is ready to launch!
-        """
         print(summary)
     
     def run_setup(self):
